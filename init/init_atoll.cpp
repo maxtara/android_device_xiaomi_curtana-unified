@@ -105,7 +105,7 @@ void load_device_properties() {
             set_device_props(
                              "Redmi/curtana_global/curtana:10/QKQ1.191215.002/V11.0.9.0.QJWMIXM:user/release-keys",
                              "curtana_global-user 10 QKQ1.191215.002 V11.0.9.0.QJWMIXM release-keys",
-                             "Redmi", "curtana", "Redmi Note 9s");
+                             "Redmi", "curtana", "Redmi Note 9S");
         } else if (region == "India") {
             set_device_props(
                              "Redmi/curtana/curtana:10/QKQ1.191215.002/V11.0.4.0.QJWINXM:user/release-keys",
