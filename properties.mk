@@ -177,7 +177,7 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
 
 # OTA
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
-    lineage.updater.uri=https://home.tarasuik.com/local/l12awduaiuha830a8hf3fshfus3f9s3f9js93fjsufs3fs83f9shf/lc.json
+    lineage.updater.uri=https://home.tarasuik.com/local/l12awduaiuha830a8hf3fshfus3f9s3f9js93fjsufs3fs83/lc.json
 
 # Perf
 PRODUCT_PROPERTY_OVERRIDES += \
