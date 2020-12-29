@@ -21,6 +21,24 @@
 # definition file).
 #
 
+# Open GApps packages
+GAPPS_VARIANT := full
+GAPPS_EXCLUDED_PACKAGES += \
+    Books \
+    Drive \
+    Maps \
+    Music2 \
+    Newsstand \
+    PixelLauncher \
+    PlayGames \
+    PrebuiltKeep \
+    Videos \
+    YouTube
+GAPPS_PRODUCT_PACKAGES += \
+    GoogleContacts \
+    LatinImeGoogle
+GAPPS_FORCE_PACKAGE_OVERRIDES := true
+
 # Inherit properties
 $(call inherit-product, $(LOCAL_PATH)/properties.mk)
 
@@ -553,3 +571,6 @@ PRODUCT_BOOT_JARS += \
 
 # Inherit the proprietary files
 $(call inherit-product, vendor/xiaomi/curtana/curtana-vendor.mk)
+
+# Inherit Open GApps files
+$(call inherit-product, vendor/opengapps/build/opengapps-packages.mk)
