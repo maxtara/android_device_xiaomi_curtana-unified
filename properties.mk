@@ -178,7 +178,7 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
 
 # OTA
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
-    lineage.updater.uri=https://github.com/LeddaZ/lineage_curtana_OTA/raw/main/lineage_curtana.json
+    lineage.updater.uri=https://github.com/LeddaZ/android_devices_OTA/raw/main/lineage_curtana.json
 
 # Perf
 PRODUCT_PROPERTY_OVERRIDES += \
