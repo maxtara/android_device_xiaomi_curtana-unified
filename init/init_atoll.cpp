@@ -111,6 +111,11 @@ void load_device_properties() {
                              "google/redfin/redfin:11/RQ1A.210205.004/7038034:user/release-keys",
                              "curtana_in-user 10 QKQ1.191215.002 V11.0.4.0.QJWINXM release-keys",
                              "Redmi", "curtana", "Redmi Note 9 Pro");
+        } else if (region == "Japan") {
+            set_device_props(
+                             "google/redfin/redfin:11/RQ1A.210105.003/7005429:user/release-keys",
+                             "redfin-user 11 RQ1A.210105.003 7005429 release-keys",
+                             "Redmi", "curtana", "Redmi Note 9S");
         }
     } else if (hwname == "excalibur") {
         set_device_props(
