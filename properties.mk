@@ -4,7 +4,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     vendor.audio_hal.period_size=240 \
     ro.vendor.audio.sdk.fluencetype=fluence \
     persist.vendor.audio.fluence.voicecall=true \
-    persist.vendor.audio.fluence.voicerec=false \
+    persist.vendor.audio.fluence.voicerec=true \
     persist.vendor.audio.fluence.speaker=true \
     vendor.audio.tunnel.encode=false \
     persist.vendor.audio.ras.enabled=false \
@@ -113,7 +113,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.vendor.camera.HAL3.enabled=1 \
     persist.vendor.camera.preview.ubwc=0 \
     vendor.video.disable.ubwc=1 \
-    vidc.enc.dcvs.extra-buff-count=2
+    vidc.enc.dcvs.extra-buff-count=2 \
+    camera.disable_zsl_mode=1
 
 # CNE
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
